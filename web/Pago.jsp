@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="css/carrito.css" />
         <link rel="stylesheet" href="css/Pago.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     </head>
     <body>
         <h1>Interfaz de Pago</h1>
@@ -13,11 +16,11 @@
         <header class="header">
             <a href="Menu" id="logoHamburguesa"> <img src="images/Logo.png" alt=""></a>
             <nav class="navbar">
-                <a href="Menu">Menu</a>
-                <a href="Nosotros">Nosotros</a>
-                <a href="Contactanos">Contactanos</a>
-                <a href="ZonasDeReparto">Zonas de Reparto</a>
-                <a href="index">Login</a>
+                <a href="Menu.jsp">Menu</a>
+                <a href="Nosotros.jsp">Nosotros</a>
+                <a href="Contactanos.jsp">Contactanos</a>
+                <a href="ZonasDeReparto.jsp">Zonas de Reparto</a>
+                <a href="index.jsp">Login</a>
             </nav>
             <div class="container-icon">
                 <div class="container-cart-icon">
@@ -151,7 +154,7 @@
             
             <%@include file="footer.jsp" %>
             
-            <script src="js/arrito.js"></script>
+            <script src="js/carrito.js"></script>
             <script src="js/Pago.js"></script>
     </body>
 </html>

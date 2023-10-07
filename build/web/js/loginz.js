@@ -12,6 +12,15 @@ function ingresar() {
     } else {
         window.location.href = "Menu.jsp";
     }
+    
+    if (usuario == "trabajador" && password == 123) {
+        console.log(usuario);
+        //location.href = 'Dashboard/html/reporte.html';
+        //window.location.href('Dashboard/html/reporte.html');
+        window.location.href = "Dashboard.jsp";
+    } else {
+        window.location.href = "Menu.jsp";
+    }
 }
 
 

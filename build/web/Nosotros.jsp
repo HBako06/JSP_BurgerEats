@@ -1,3 +1,5 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -23,42 +25,42 @@
             <div class="acordeon">
                 <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
                 <label for="btn-acordeon1">
-                    ¿Como nacio BurgerEats?
+                    Â¿Como nacio BurgerEats?
                 </label>
                 <div class="contenido-acordeon">
-                    <p>BurgerEats nace en el año 2022, como proyecto de 5 jóvenes emprendedores peruanos, que buscaban incursionar en el mercado de las hamburguesas peruanas.
+                    <p>BurgerEats nace en el aÃ±o 2022, como proyecto de 5 jÃ³venes emprendedores peruanos, que buscaban incursionar en el mercado de las hamburguesas peruanas.
 
-                        <br>En ese momento las cadenas nacionales ofrecían hamburguesas dentro de un menú común en locales presenciales, los jóvenes querían dar soluciones nuevas, divertidas y con la aceptación de todo el público, siendo un servicio fácil y sencillo para todos, a través de una página web interactiva.</br>
+                        <br>En ese momento las cadenas nacionales ofrecÃ­an hamburguesas dentro de un menÃº comÃºn en locales presenciales, los jÃ³venes querÃ­an dar soluciones nuevas, divertidas y con la aceptaciÃ³n de todo el pÃºblico, siendo un servicio fÃ¡cil y sencillo para todos, a travÃ©s de una pÃ¡gina web interactiva.</br>
                     </p>
                 </div>
             </div>
             <div class="acordeon">
                 <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
                 <label for="btn-acordeon2">
-                    ¿Que ofrecemos?
+                    Â¿Que ofrecemos?
                 </label>
                 <div class="contenido-acordeon">
-                    <p>La mejor hamburguesa a la parrilla consabores únicos y combinaciones creativas del suministro de la más alta calidad proporcionada por las atracciones locales. Nuestro espíritu innovador y expresivo aparece no solo en nuestros productos, sino también en nuestras premisas, pagina y la excelente calidad de nuestros servicios.</p>
+                    <p>La mejor hamburguesa a la parrilla consabores Ãºnicos y combinaciones creativas del suministro de la mÃ¡s alta calidad proporcionada por las atracciones locales. Nuestro espÃ­ritu innovador y expresivo aparece no solo en nuestros productos, sino tambiÃ©n en nuestras premisas, pagina y la excelente calidad de nuestros servicios.</p>
                 </div>
             </div>
             <div class="acordeon">
                 <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
                 <label for="btn-acordeon3">
-                    ¿Cuál es nuestro propósito?
+                    Â¿CuÃ¡l es nuestro propÃ³sito?
                 </label>
                 <div class="contenido-acordeon">
-                    <p>El propósito de BurgerEats es brindar una experiencia de compra cómoda, accesible y personalizada para los amantes de las hamburguesas, utilizando la tecnología y los servicios en línea para satisfacer las necesidades y preferencias de los clientes.</p>
+                    <p>El propÃ³sito de BurgerEats es brindar una experiencia de compra cÃ³moda, accesible y personalizada para los amantes de las hamburguesas, utilizando la tecnologÃ­a y los servicios en lÃ­nea para satisfacer las necesidades y preferencias de los clientes.</p>
                 </div>
             </div>
             <div class="acordeon">
                 <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
                 <label for="btn-acordeon4">
-                    ¿Cuál es nuestro compromiso con los clientes?
+                    Â¿CuÃ¡l es nuestro compromiso con los clientes?
                 </label>
                 <div class="contenido-acordeon">
                     <p>Enfatizamos nuestro negocio para brindarle el mejor servicio a todos nuestros clientes, siempre tratando de superar las expectativas y siempre satisfacer cada una de tus ordenes. </p>
                     <b>?????????</b>
-                    <p>¡BurgerEats frescura y calidad en el mejor lugar! </p>
+                    <p>Â¡BurgerEats frescura y calidad en el mejor lugar! </p>
                 </div>
             </div>
         </div>
@@ -68,5 +70,5 @@
 
         <%@include file="footer.jsp" %>
         <script src="js/carrito.js"></script>
-    </body>
+   Â </body>
 </html>
