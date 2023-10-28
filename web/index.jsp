@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <head>
+    <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,44 +19,49 @@
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="css/carrito.css" />
 
-   </head>
+    </head>
 
-<body>
-    
-    <%@include file="header.jsp" %>
-    <section id="home" class="home">
-        <div class="image myimage">
-            <img src="images/Logo.png" alt="">
-        </div>
-        <div class="content">
-            <h3>Inicia Sesion</h3>
-            <div class="col-auto">
-                <h4><label> Nombre de usuario</label><br></h4>
-                <input type="text" id="inputUsuario" class="box" name="Usuario">
-                <br>
-                <div class="col-auto">
-                    <h4> <label for="inputPassword" class="col-form-label" name="Usuario">Contraseña</label></h5>
-                </div>
-                <div class="col-auto">
-                    <input type="password" id="inputPassword" class="box" name=password
-                        aria-labelledby="passwordHelpInline">
-                </div>
-                <div class="col-auto">
-                    <span id="passwordHelpInline" class="form-text">
-                        Debes tener al menos 8-20 caracteres.
-                    </span>
-                </div>
+    <body>
+
+        <%@include file="header.jsp" %>
+        <section id="home" class="home">
+            <div class="image myimage">
+                <img src="images/Logo.png" alt="">
             </div>
-            <a href="index.jsp" id="signUp" class="btn">Regresar</a>
-            <a href="#" onclick="ingresar()" id="btn-zzz " class="btn2">Ingresar</a>
-            <br><br>
-            <a href="#">¿Olvidaste tu contraseña?</a>
-        </div>
-    </section>
-    
-    <%@include file="footer.jsp" %>
-    
-</body>
-<script src="js/loginz.js"></script>
-<script src="js/carrito.js"></script>
+            <div class="content">
+                <h3>Inicia Sesion</h3>
+
+                <div class="col-auto">
+                    <form action="valida.jsp" method="post">
+                        <h4><label> Nombre de usuario</label><br></h4>
+                        <input type="text" id="inputUsuario" class="box" name="Usuario">
+                        <br>
+                        <div class="col-auto">
+                            <h4> <label>Contraseña</label></h5>
+                        </div>
+                        <div class="col-auto">
+                            <input type="password" id="inputPassword" class="box" name=Password
+                                   aria-labelledby="passwordHelpInline">
+                        </div>
+
+                        <div class="col-auto">
+                            <span id="passwordHelpInline" class="form-text">
+                                Debes tener al menos 8-20 caracteres.
+                            </span>
+                        </div>
+                </div>
+                <a href="index.jsp" id="signUp" class="btn">Regresar</a>
+                <input type="submit" value="enviar" class="btn2">
+               
+                </form>   
+                <br><br>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+        </section>
+
+        <%@include file="footer.jsp" %>
+
+    </body>
+
+    <script src="js/carrito.js"></script>
 </html>

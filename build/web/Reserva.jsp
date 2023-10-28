@@ -34,7 +34,7 @@ link href="https://unpkg.com/ionicons@s.5.10-@/dist/css/ionicons.min.css" rel="s
         
       <%@include file="/layout/TrabajadorLayout.jsp" %>
 
-<div class="pipilin">
+<div class="pi">
       <div class="container">
         <div class="left">
           <div class="calendar">
