@@ -15,53 +15,37 @@
                 integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="css/carrito.css" />
+        <link rel="stylesheet" href="vista/css/style.css" />
+        <link rel="stylesheet" href="vista/css/styles.css" />
+        <link rel="stylesheet" href="vista/css/carrito.css" />
 
     </head>
 
     <body>
 
-        <%@include file="header.jsp" %>
-        <section id="home" class="home">
+      
+          <section id="home" class="home">
+
             <div class="image myimage">
-                <img src="images/Logo.png" alt="">
+                <img src="vista/images/Logo.png" alt="">
             </div>
+
             <div class="content">
-                <h3>Inicia Sesion</h3>
-
-                <div class="col-auto">
-                    <form action="valida.jsp" method="post">
-                        <h4><label> Nombre de usuario</label><br></h4>
-                        <input type="text" id="inputUsuario" class="box" name="Usuario">
-                        <br>
-                        <div class="col-auto">
-                            <h4> <label>Contraseña</label></h5>
-                        </div>
-                        <div class="col-auto">
-                            <input type="password" id="inputPassword" class="box" name=Password
-                                   aria-labelledby="passwordHelpInline">
-                        </div>
-
-                        <div class="col-auto">
-                            <span id="passwordHelpInline" class="form-text">
-                                Debes tener al menos 8-20 caracteres.
-                            </span>
-                        </div>
-                </div>
-                <a href="index.jsp" id="signUp" class="btn">Regresar</a>
-                <input type="submit" value="enviar" class="btn2">
-               
-                </form>   
-                <br><br>
-                <a href="#">¿Olvidaste tu contraseña?</a>
+                <h3>¿Todavía no adquieres una cuenta?</h3>
+                <br><br><br>
+            
+                <a href="vista/Inicio.jsp" id="signUp"  class="btn">Inicia Sesion</a>
+                <a href="vista/Registro.jsp" id="register" class="btn">Registrate</a>
             </div>
+
+
+
         </section>
 
-        <%@include file="footer.jsp" %>
+        <%@include file="vista/footer.jsp" %>
 
     </body>
 
-    <script src="js/carrito.js"></script>
+    <script src="vista/js/carrito.js"></script>
+    <script src="vista/js/hamburguesa.js"></script>
 </html>
