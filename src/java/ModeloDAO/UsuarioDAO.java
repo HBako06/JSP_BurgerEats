@@ -19,21 +19,20 @@ import java.util.List;
  */
 public class UsuarioDAO implements UsuarioCRUD {
 
+   
     Conexion cn = new Conexion();
-    Connection cnx;
-    PreparedStatement ps;
-    ResultSet rs;
-
     Usuario user = new Usuario();
 
     @Override
     public List listar() {
-        ArrayList<Usuario> list = new ArrayList<>();
-        String sql = "select * from usuario";
+        
+        List<Usuario> usuarios = new ArrayList<>();
+        
         try {
-            cnx = cn.getConnection();
-            ps = cnx.prepareStatement(sql);
-            rs = ps.executeQuery();
+            Connection cnx = cn.conecta();
+            String query = "SELECT * FROM usuario";
+            PreparedStatement statement = cnx.prepareStatement(query);
+            ResultSet rs = statement.executeQuery();
             while (rs.next()) {
                 Usuario usuario = new Usuario();
                 usuario.setCorreo(rs.getString("Correo"));
@@ -45,11 +44,11 @@ public class UsuarioDAO implements UsuarioCRUD {
                 usuario.setTelefono(rs.getString("Telefono"));
                 usuario.setDireccion(rs.getString("Direccion"));
 
-                list.add(user);
+                usuarios.add(usuario);
             }
         } catch (Exception e) {
         }
-        return list;
+        return usuarios;
     }
 
     @Override
@@ -61,7 +60,9 @@ public class UsuarioDAO implements UsuarioCRUD {
     public boolean add(Usuario user) {
         String sql = "INSERT INTO usuario (Correo, Contraseña, Nombre, Apellido, Dni, tipo, Telefono, Direccion) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
-        try (Connection connection = cn.conecta(); PreparedStatement statement = connection.prepareStatement(sql)) {
+        try (
+                Connection connection = cn.conecta(); 
+                PreparedStatement statement = connection.prepareStatement(sql)) {
 
             // Configurar los parámetros
             statement.setString(1, user.getCorreo());
