@@ -54,6 +54,11 @@ public class ProductoDAO implements ProductoCRUD {
             if(rs.next()) {
                 prod.setIdProducto(rs.getInt("idProducto"));
                 prod.setNombre(rs.getString("Nombre"));
+                prod.setImagen(rs.getString("Imagen"));
+                prod.setStock(rs.getInt("Stock"));
+                prod.setCategoria(rs.getString("Categoria"));
+                prod.setPrecio(rs.getDouble("Precio"));
+                prod.setDescripcion(rs.getString("Descripcion"));
                 // Continuar estableciendo el resto de propiedades
             }
         } catch(Exception e) {
