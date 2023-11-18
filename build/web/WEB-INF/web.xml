@@ -26,4 +26,15 @@
         <servlet-name>ProveedorControlador</servlet-name>
         <url-pattern>/ProveedorControlador</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ReporteControlador</servlet-name>
+        <servlet-class>ReporteControlador</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReporteControlador</servlet-name>
+        <url-pattern>/ReporteControlador</url-pattern>
+    </servlet-mapping>
+    
+    
 </web-app>

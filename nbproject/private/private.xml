@@ -3,38 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Interfaces/ProductoCRUD.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/ModeloDAO/UsuarioDAO.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/js/gestionProductos.js</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/js/AddUser.js</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/AddUser.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Modelo/Empleado.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Modelo/Proveedor.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Modelo/Producto.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/Gestion-productos.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/ModeloDAO/ProveedorDAO.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/Gestion-proveedores.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/ModeloDAO/ProductoDAO.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/conf/MANIFEST.MF</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/proveedoradd.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/css/ReporteLayout.css</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Controlador/ProveedorControlador.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/css/AddUser.css</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Controlador/Usuario_Controlador.java</file>
             <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Controlador/Usuario_Controlador.java</file>
             <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Interfaces/ProveedorCRUD.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/pedidos.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/META-INF/context.xml</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Interfaces/UsuarioCRUD.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/Registro.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/js/dataTables.bootstrap5.min.js</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/ReporteTrabajador.jsp</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Controlador/ReporteControlador.java</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/ModeloDAO/UsuarioDAO.java</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Modelo/Autentica.java</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Modelo/Producto.java</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Modelo/Reporte.java</file>
             <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Controlador/Producto_Controlador.java</file>
             <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Modelo/Usuario.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Modelo/Venta.java</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/layout/ReporteLayout.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/proveedoreliminar.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/proveedorlistar.jsp</file>
-            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/web/vista/proveedoredit.jsp</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/ModeloDAO/ReporteDAO.java</file>
+            <file>file:/C:/Users/zh/Documents/NetBeansProjects/JSP_BurgerEats/src/java/Interfaces/ReporteCRUD.java</file>
         </group>
     </open-files>
 </project-private>
