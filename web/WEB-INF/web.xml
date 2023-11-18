@@ -8,4 +8,14 @@
         <servlet-name>Usuario_Controlador</servlet-name>
         <url-pattern>/Usuario_Controlador</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Producto_Controlador</servlet-name>
+        <servlet-class>Controlador.Producto_Controlador</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Producto_Controlador</servlet-name>
+        <url-pattern>/Producto_Controlador</url-pattern>
+    </servlet-mapping>
+    
 </web-app>

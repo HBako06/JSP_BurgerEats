@@ -51,9 +51,9 @@
           </li>
 
           <li>
-            <a href="Gestion-ingredientes.jsp">
+            <a href="Gestion-productos.jsp">
               <i class="fa-solid fa-user"></i>
-              <span>Gestion Ingredientes</span>
+              <span>Gestion productos</span>
             </a>
           </li>
 
