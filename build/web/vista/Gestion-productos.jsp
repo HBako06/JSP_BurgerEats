@@ -3,9 +3,7 @@
 <html lang="en">
 <head>
     <title>Gestión de Productos</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome para íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -16,7 +14,6 @@
     <h2>Gestión de Productos</h2>
     <button class="btn btn-primary my-3" data-bs-toggle="modal" data-bs-target="#modalProducto">Agregar Producto</button>
 
-    <!-- Tabla de productos -->
     <table class="table">
         <thead>
             <tr>
@@ -31,11 +28,9 @@
             </tr>
         </thead>
         <tbody id="tablaProductos">
-            <!-- Los productos se cargarán aquí -->
         </tbody>
     </table>
 
-    <!-- Modal para agregar/editar producto -->
     <div class="modal fade" id="modalProducto" tabindex="-1" aria-labelledby="modalProductoLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -44,9 +39,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <!-- Formulario para agregar/editar producto -->
                     <form id="formularioProducto">
-                        <!-- Campo oculto para almacenar el ID del producto -->
                         <input type="hidden" id="idProducto" name="idProducto">
                         
                         <div class="mb-3">
@@ -87,7 +80,6 @@
     </div>
 </div>
 
-<!-- Modal para editar producto -->
 <div class="modal fade" id="modalEditarProducto" tabindex="-1" aria-labelledby="modalEditarProductoLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -96,9 +88,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <!-- Formulario para editar producto -->
                 <form id="formularioEditarProducto">
-                    <!-- Campo oculto para almacenar el ID del producto a editar -->
                     <input type="hidden" id="idProductoEditar" name="idProductoEditar">
                     
                     <div class="mb-3">
@@ -138,13 +128,8 @@
     </div>
 </div>
 
-
-
-
-<!-- Bootstrap y dependencias JS -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Script para manejar lógica de productos -->
 <script src="js/gestionProductos.js"></script>
 </body>
 </html>

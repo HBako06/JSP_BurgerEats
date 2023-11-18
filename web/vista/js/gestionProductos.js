@@ -36,7 +36,6 @@ function mostrarProductos(productos) {
     });
 }
 
-
 function agregarProducto() {
     const nombre = document.getElementById('nombre').value;
     const imagen = document.getElementById('imagen').value;
@@ -64,16 +63,16 @@ function agregarProducto() {
     .then(response => {
         if (response.ok) {
             alert('Producto agregado exitosamente');
-            location.reload(); // Recargar la página para mostrar la imagen actualizada
+            location.reload();
         } else {
             alert('Error al agregar el producto');
         }
     })
     .catch(error => console.error('Error:', error));
 }
+
 function abrirModalEdicion(idProducto) {
     obtenerProductoPorID(idProducto).then(producto => {
-        // Aquí llenas los campos del formulario con la información del producto
         document.getElementById('idProductoEditar').value = producto.idProducto;
         document.getElementById('nombreEditar').value = producto.nombre;
         document.getElementById('descripcionEditar').value = producto.descripcion;
@@ -87,6 +86,7 @@ function abrirModalEdicion(idProducto) {
         console.error('Error al obtener el producto:', error);
     });
 }
+
 function obtenerProductoPorID(idProducto) {
     return fetch(`http://localhost:8080/BurgetEatJSP/Producto_Controlador?accion=list&id=${idProducto}`)
         .then(response => {
@@ -96,6 +96,7 @@ function obtenerProductoPorID(idProducto) {
             return response.json();
         });
 }
+
 function editarProducto() {
     const idProducto = document.getElementById('idProductoEditar').value;
     const nombre = document.getElementById('nombreEditar').value;
@@ -125,16 +126,14 @@ function editarProducto() {
     .then(response => {
         if (response.ok) {
             alert('Producto actualizado exitosamente');
-            $('#modalEditarProducto').modal('hide'); // Cerrar el modal después de guardar
-            cargarProductos(); // Recargar la lista de productos
+            $('#modalEditarProducto').modal('hide');
+            cargarProductos();
         } else {
             alert('Error al guardar los cambios del producto');
         }
     })
     .catch(error => console.error('Error:', error));
 }
-
-
 
 function eliminarProducto(id) {
     fetch(`http://localhost:8080/BurgetEatJSP/Producto_Controlador?id=${id}`, {
