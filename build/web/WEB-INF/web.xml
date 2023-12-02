@@ -29,11 +29,21 @@
     
     <servlet>
         <servlet-name>ReporteControlador</servlet-name>
-        <servlet-class>ReporteControlador</servlet-class>
+        <servlet-class>Controlador.ReporteControlador</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ReporteControlador</servlet-name>
         <url-pattern>/ReporteControlador</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>FormularioContactoControlador</servlet-name>
+        <servlet-class>Controlador.FormularioContactoControlador</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormularioContactoControlador</servlet-name>
+        <url-pattern>/FormularioContactoControlador</url-pattern>
     </servlet-mapping>
     
     
